@@ -32,7 +32,6 @@ interpolationScheme cell;
 // Fields to sample.
 fields
 (
-    fieldNames
 );
 
 // Set sampling definition.

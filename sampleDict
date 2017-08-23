@@ -32,7 +32,8 @@ interpolationScheme cell;
 // Fields to sample.
 fields
 (
-    fieldNames
+    U
+    k
 );
 
 // Set sampling definition.

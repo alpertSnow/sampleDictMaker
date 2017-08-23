@@ -17,7 +17,8 @@ head <- readLines('sampleDict-head')
 tail <- readLines('sampleDict-tail')
 
 # set fieldNames
-# waiting to be done.......
+fn <- c('    U','    k')
+head <- append(head, fn, after = grep('field', head) + 1)
 
 # write sampleDict
 write(head, 'sampleDict')
