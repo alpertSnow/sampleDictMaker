@@ -7,6 +7,9 @@ x <- seq(1,5,2)
 y <- seq(2,6,2)
 z <- seq(1,1,1)
 
+# Input fieldNames
+fn <- c('    U','    k')
+
 # Make the point coordiates as "(x y z)"
 points <- expand.grid( x , y , z )
 points.str <- do.call(paste, points)
@@ -17,7 +20,6 @@ head <- readLines('sampleDict-head')
 tail <- readLines('sampleDict-tail')
 
 # set fieldNames
-fn <- c('    U','    k')
 head <- append(head, fn, after = grep('field', head) + 1)
 
 # write sampleDict

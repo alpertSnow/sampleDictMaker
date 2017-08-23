@@ -15,7 +15,7 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Set output format.
-setFormat csv;
+setFormat jplot;
 
 // optionally define extra controls for the output formats
 formatOptions
