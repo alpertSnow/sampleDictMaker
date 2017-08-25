@@ -3,12 +3,12 @@
 ### merge with the head and tail of the sampleDict file.
 
 # Input coordinate vectors
-x <- seq(1,5,2)
-y <- seq(2,6,2)
-z <- seq(1,1,1)
+x <- seq(201,849,2)  
+y <- seq(1,899,2)  
+z <- seq(1,1,1)  
 
 # Input fieldNames
-fn <- c('    U','    k')
+fn <- c('    T','    Tr1','    Tr2','    Tr3','    Tr4','    Tr5','    Tr6','    Tr7','    Tr8','    Tr9')
 
 # Make the point coordiates as "(x y z)"
 points <- expand.grid( x , y , z )
