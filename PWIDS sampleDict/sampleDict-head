@@ -27,7 +27,7 @@ formatOptions
 }
 
 // interpolationScheme.
-interpolationScheme cell;
+interpolationScheme cellPoint;
 
 // Fields to sample.
 fields
@@ -37,7 +37,7 @@ fields
 // Set sampling definition.
 sets
 (
-    PWIDS
+    PWIDS&SuperPWIDS
     {
         type    cloud;
         axis    xyz;
