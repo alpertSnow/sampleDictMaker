@@ -27,7 +27,7 @@ formatOptions
 }
 
 // interpolationScheme.
-interpolationScheme cell;
+interpolationScheme cellPoint;
 
 // Fields to sample.
 fields
